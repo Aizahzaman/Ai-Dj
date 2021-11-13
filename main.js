@@ -8,8 +8,6 @@ canvas=createCanvas(600,500);
 canvas.center();
 camera=createCapture(VIDEO);
 camera.hide();
-myModel=ml5.poseNet(camera,modelLoaded);
-myModel.on("pose",result);
 }
 
 function modelLoaded(){
